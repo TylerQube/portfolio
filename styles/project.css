@@ -97,28 +97,29 @@
 
 @media (max-width: 600px) {
     .ascii {
-        font-size: 4px;
-        line-height: 7px;
+        font-size: 3px;
+        line-height: 5px;
     }
 
     #dorm_defender-ascii {
-        font-size: 2.5px;
+        font-size: 2px;
         line-height: 4.5px;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
     .ascii {
         font-size: 2px;
         line-height: 5px;
     }
 
     #dorm_defender-ascii {
-        display: none;
+        font-size: 2px;
+        line-height: 4.5px;
     }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 350px) {
     .ascii {
         display: none !important;
     }
