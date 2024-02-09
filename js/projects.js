@@ -40,7 +40,7 @@ const createProject = (proj) => {
         const block = document.createElement("div");
         for(const line of infoBlock) {
             const p = document.createElement("p");
-            p.textContent = "• " + line;
+            p.textContent = "* " + line;
             block.appendChild(p);
         }
         infoCont.appendChild(block);
