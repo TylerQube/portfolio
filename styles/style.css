@@ -58,12 +58,11 @@ body {
     align-items: center;
     margin-top: 10px;
 
-    min-width: min(90vw, 320px);
 
 }
 
 #info {
-    min-width: min(90vw, 320px);
+    min-width: min(90vw, 400px);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
