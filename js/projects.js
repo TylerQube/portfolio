@@ -118,7 +118,7 @@ const revealProj = (proj) => {
     if(ind >= projects.length) {
         setTimeout(() => {
             document.getElementById("projects").classList.remove("projects-loading");
-        }, 200);
+        }, 600);
         return;
     }
     setTimeout(() => {
