@@ -1,0 +1,161 @@
+:root {
+    --bg: #1a1a1a;
+    --font-color: white !important;
+    --primary-color: white !important;
+    --secondary-color: white !important;
+}
+
+a:hover {
+    background: none !important;
+}
+
+.btn-ghost {
+    border: 1px solid white !important;
+}
+
+button:hover {
+    text-decoration: underline !important;
+}
+
+button:hover {
+    border: 1px solid white !important;
+}
+
+body {
+    background-color: var(--bg) !important;
+    color: white !important;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+.no-cursor::after {
+    display: none !important;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+
+    gap: 4px;
+    white-space: pre;
+    min-width: 380px;
+}
+
+#info p {
+    margin: 0;
+}
+
+#info p::before {
+    display: none !important;
+}
+
+#portrait {
+    position: relative;
+    display: inline-block;
+    background: none !important;
+    font-size: 0.8vh;
+    line-height: 1vh;
+
+
+    overflow: hidden;
+
+    /* transition: max-width 0.5s ease-in-out; */
+    transition: max-height 3s;
+    max-height: 1000px;
+    /* min-height: 372px; */
+}
+
+.hidden {
+    /* max-width: 0 !important; */
+    max-height: 0px !important;
+}
+
+
+.hidden::after {
+    height: 100%;
+}
+
+.show-portrait::after {
+    height: 0 !important;
+}
+
+#portrait p {
+    margin: 0;
+    text-wrap: nowrap;
+    white-space: pre;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+.nav-container p {
+    margin: 20px 0;
+}
+
+.terminal-logo {
+    min-width: 200px;
+}
+
+*::selection {
+    color: black !important;
+    background: white !important;
+}
+
+p:hover {
+    cursor:text;
+}
+
+.menu-item {
+    text-decoration: underline !important;
+}
+
+.btn {
+    --font-color: white;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+@media (max-width: 600px) {
+    .menu {
+        font-size: 14.3px !important;
+    }
+
+    #portrait {
+        font-size: 0.7vh;
+    }
+}
+
+ul *::after {
+    content: '' !important;
+}
+
+li {
+    padding-left: 0 !important;
+}

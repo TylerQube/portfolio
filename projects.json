@@ -1,0 +1,104 @@
+[
+    {
+        "title": "PalPoll 📊",
+        "buttons": [
+            {
+                "label": "Source",
+                "href": "https://www.github.com/TylerQube/pal-poll-client"
+            }
+        ],
+        "color": "#FFACFF", 
+        "ascii_file": "palpoll.txt",
+        "text": [
+            [
+                "Daily quiz game to bring friends closer together through trivia",
+                "Full-stack web application with emphasis on web security"
+            ]
+        ],
+        "technologies": [
+            "Node.js",
+            "Express",
+            "Vue.js",
+            "MongoDB",
+            "Mongoose",
+            "JWT"
+        ]
+    },
+    {
+        "title": "Algo Vision 👁️",
+        "buttons": [
+            {
+                "label": "Source",
+                "href": "https://github.com/TylerQube/AlgoVis"
+            },
+            {
+                "label": "Live",
+                "href": "https://algovis.tylertypes.com"
+            }
+        ],
+        "color": "#12DC20", 
+        "ascii_file": "",
+        "text": [
+            [
+                "Visualization of pathfinding algorithms - Dijkstra's, A*, Greedy",
+                "Responsive maze editor and algorithm playback menu break down process of finding the best path"
+            ]
+        ],
+        "technologies": [
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "OOP"
+        ]
+    },
+    {
+        "title": "ISMordle 📝",
+        "buttons": [
+            {
+                "label": "Source",
+                "href": "https://www.github.com/TylerQube/isma-wordle"
+            }
+        ],
+        "color": "#12C0DC", 
+        "ascii_file": "ismordle.txt",
+        "text": [
+            [
+                "Built-from-scratch spinoff of Wordle using hometown terminology",
+                "Over 2000 unique plays",
+                "Full-stack Express web application using Client-side storage"
+            ]
+        ],
+        "technologies": [
+            "TypeScript",
+            "SCSS",
+            "Express",
+            "Client-side Storage"
+        ]
+    },
+    {
+        "title": "Dorm Defender 🚨",
+        "buttons": [
+            {
+                "label": "Source",
+                "href": "https://github.com/TylerQube/DormDefender"
+            }
+        ],
+        "color": "#FF8F2E", 
+        "ascii_file": "",
+        "text": [
+            [
+                "Motion-detecting security system, notifies user through web server and email"
+            ],
+            [
+                "Controlled through LCD user interface controlled by custom C++ GUI library",
+                "Security logs stored and retrieved in remote JSON file"
+            ]
+        ],
+        "technologies": [
+            "Microcontroller",
+            "C++",
+            "Express",
+            "Nodemailer"
+        ]
+    }
+]
