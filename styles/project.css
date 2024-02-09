@@ -52,8 +52,12 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    transition: margin-bottom 0.6s;
+    margin-bottom: 30px;
+}
 
-    margin-bottom: 300px;
+.projects-loading {
+    margin-bottom: 300px !important;
 }
 
 .project h2::before {

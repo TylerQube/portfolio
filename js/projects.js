@@ -115,7 +115,12 @@ const revealProj = (proj) => {
 
     ind++;
 
-    if(ind >= projects.length) return;
+    if(ind >= projects.length) {
+        setTimeout(() => {
+            document.getElementById("projects").classList.remove("projects-loading");
+        }, 200);
+        return;
+    }
     setTimeout(() => {
         onVisible(projects[ind], revealProj);
     }, 800)
@@ -123,6 +128,7 @@ const revealProj = (proj) => {
 
 const setUpProjects = () => {
     const first = projects[0];
+    document.getElementById("projects").classList.add("projects-loading");
     setTimeout(() => {
         revealProj(first);
     }, 500);
