@@ -70,13 +70,12 @@
 
     padding: 0 !important;
     letter-spacing: 1px;
-
     font-weight: bold;
-}
 
-.ascii {
     font-size: 4px;
     line-height: 7px;
+
+    text-wrap: nowrap;
 }
 
 
