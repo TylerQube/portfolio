@@ -45,7 +45,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* align-items: center; */
 }
 
 .no-cursor::after {
@@ -66,7 +65,6 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* white-space-collapse: preserve-spaces; */
 }
 
 #info p {
@@ -87,14 +85,11 @@ body {
 
     overflow: hidden;
 
-    /* transition: max-width 0.5s ease-in-out; */
     transition: max-height 3s;
     max-height: 1000px;
-    /* min-height: 372px; */
 }
 
 .hidden {
-    /* max-width: 0 !important; */
     max-height: 0px !important;
 }
 
