@@ -37,7 +37,7 @@
             }
         ],
         "color": "#12DC20", 
-        "ascii_file": "",
+        "ascii_file": "algo_vision.txt",
         "text": [
             [
                 "Visualization of pathfinding algorithms - Dijkstra's, A*, Greedy",
@@ -84,7 +84,7 @@
             }
         ],
         "color": "#FF8F2E", 
-        "ascii_file": "",
+        "ascii_file": "dorm_defender.txt",
         "text": [
             [
                 "Motion-detecting security system, notifies user through web server and email"

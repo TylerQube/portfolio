@@ -60,12 +60,13 @@
     content: '> ';
 }
 
-#palpoll-ascii, #ismordle-ascii {
+.ascii {
     background: none !important;
     border: none;
 
     text-wrap: nowrap;
 
+    width: 50px;
 
     padding: 0 !important;
     letter-spacing: 1px;
@@ -73,19 +74,11 @@
     font-weight: bold;
 }
 
-@media (max-width: 800px) {
-    #palpoll-ascii, #ismordle-ascii {
-        font-size: 4px;
-        line-height: 7px;
-    }
+.ascii {
+    font-size: 4px;
+    line-height: 7px;
 }
 
-@media (min-width: 801px) {
-    #palpoll-ascii, #ismordle-ascii {
-        font-size: 5px;
-        line-height: 8px;
-    }
-}
 
 @media (min-width: 450px) {
     .project:nth-child(odd) {
@@ -100,5 +93,12 @@
 @media (max-width: 700px) {
     .project ul {
         flex-direction: row;
+    }
+}
+
+@media (max-width: 600px) {
+    .ascii {
+        font-size: 4px;
+        line-height: 7px;
     }
 }

@@ -24,7 +24,10 @@ const createProject = (proj) => {
         const ascii = document.createElement("pre");
         ascii.id = proj["ascii_file"].slice(0, proj["ascii_file"].indexOf(".")) + "-ascii";
         ascii.style.color = color;
+        ascii.classList.add("ascii");
         infoCont.appendChild(ascii);
+
+        showAscii(proj["ascii_file"], ascii.id);
     }
 
 

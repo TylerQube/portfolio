@@ -33,7 +33,7 @@ let lines = [];
 const ic = Array.prototype.slice.call(info.children);
 lines = ic.map(l => {
     const s = l.textContent;
-    l.textContent = "";
+    l.textContent = " ".repeat(s.length);
     return s;
 });
 
@@ -65,7 +65,7 @@ const showLine = (line, node, duration) => {
         ind += inc;
         (function(ind){
             setTimeout(() => {
-                node.textContent = line.slice(0, ind);
+                node.textContent = line.slice(0, ind) + " ".repeat(line.slice(ind).length);
             }, sum);
         })(ind);
     }
