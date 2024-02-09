@@ -21,11 +21,15 @@ const createProject = (proj) => {
 
     // ASCII
     if(proj["ascii_file"] != "") {
+        const acont = document.createElement("div");
+        acont.classList.add("ascii-cont");
         const ascii = document.createElement("pre");
         ascii.id = proj["ascii_file"].slice(0, proj["ascii_file"].indexOf(".")) + "-ascii";
         ascii.style.color = color;
         ascii.classList.add("ascii");
-        infoCont.appendChild(ascii);
+
+        acont.appendChild(ascii);
+        infoCont.appendChild(acont);
 
         showAscii(proj["ascii_file"], ascii.id);
     }
