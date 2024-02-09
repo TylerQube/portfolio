@@ -139,6 +139,7 @@ p:hover {
 
 .btn {
     --font-color: white;
+
 }
 
 .menu ul {
@@ -146,7 +147,13 @@ p:hover {
     flex-direction: row;
 
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 0.6em;
+}
+
+.menu .btn {
+    padding-left: 1.3em !important;
+    padding-right: 1.3em !important;
+
 }
 
 @media (max-width: 600px) {
