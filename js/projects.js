@@ -74,12 +74,10 @@ const createProject = (proj) => {
         const a = document.createElement("a");
         a.href = link["href"];
         a.target = "_blank";
+        a.classList.add("btn", "btn-default", "btn-ghost");
 
-        const btn = document.createElement("button");
-        btn.classList.add("btn", "btn-default", "btn-ghost");
-        btn.textContent = link["label"];
+        a.textContent = link["label"];
 
-        a.appendChild(btn);
         li.appendChild(a);
         ul.appendChild(li);
     }

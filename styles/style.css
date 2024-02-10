@@ -19,7 +19,7 @@ a:hover {
     border: 1px solid white !important;
 }
 
-button:hover {
+a:hover {
     text-decoration: underline !important;
 }
 
