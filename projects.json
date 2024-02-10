@@ -76,7 +76,7 @@
         ]
     },
     {
-        "title": "Dorm Defender 🚨",
+        "title": "Dorm Defender 🔐",
         "buttons": [
             {
                 "label": "Source",
@@ -99,6 +99,53 @@
             "C++",
             "Express",
             "Nodemailer"
+        ]
+    },
+    {
+        "title": "Quoridor AI 🧠",
+        "buttons": [
+            {
+                "label": "Source",
+                "href": "https://github.com/TylerQube/TalonsQuorridor"
+            }
+        ],
+        "color": "#FFF952", 
+        "ascii_file": "",
+        "text": [
+            [
+                "Python competitive board-game playing artificial intelligence"
+            ],
+            [
+                "Implemented minimax recursion and A* pathfinding algorithm to calculate best move",
+                "Won 1st place in 1v1 and free-for-all Quoridor AI tournament"
+            ]
+        ],
+        "technologies": [
+            "Python"
+        ]
+    },
+    {
+        "title": "Socially-Distant Fire Drill Plugin 🚨",
+        "buttons": [
+            {
+                "label": "Source",
+                "href": "https://github.com/TylerQube/SociallyDistantFireDrill"
+            }
+        ],
+        "color": "#C93BFF", 
+        "ascii_file": "",
+        "text": [
+            [
+                "Minecraft plugin simulating agents escaping a room while socially-distanced"
+            ],
+            [
+                "Implementation of swarm intelligence escape algorithm in Java with Spigot API",
+                "Built custom simulation engine to create room for agents to evacuate",
+                "Created, controlled, and run from within Minecraft player interface"
+            ]
+        ],
+        "technologies": [
+            "Java, Spigot API"
         ]
     }
 ]
