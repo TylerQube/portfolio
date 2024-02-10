@@ -27,12 +27,6 @@ button:hover {
     border: 1px solid white !important;
 }
 
-@media (max-width: 546px) {
-    .terminal-logo {
-        padding: 0 0 0.7em 0 !important;
-    }
-}
-
 body {
     background-color: var(--bg) !important;
     color: white !important;
@@ -99,7 +93,6 @@ body {
     max-height: 0px !important;
 }
 
-
 .hidden::after {
     height: 100%;
 }
@@ -128,6 +121,12 @@ body {
 
 .terminal-logo {
     min-width: 200px;
+}
+
+@media (max-width: 546px) {
+    .terminal-logo {
+        padding: 0 0 0.7em 0 !important;
+    }
 }
 
 *::selection {

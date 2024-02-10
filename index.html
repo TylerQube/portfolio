@@ -10,11 +10,10 @@
     <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.4/dist/terminal.min.css" />
 </head>
 <body>
-    <div class="terminal">
-        <div class="container">
-            <div class="nav-container">
+        <div class="container terminal">
+            <header class="nav-container">
                 <h1 class="terminal-logo terminal-prompt reveal" style="font-size:20px;" text="whoami"></h1>
-                <div class="menu">
+                <nav class="menu">
                     <ul>
                         <li>
                             <a href="https://www.github.com/tylerqube/" class="btn btn-default btn-ghost" target="_blank">
@@ -32,11 +31,11 @@
                             </a>
                         </li>
                     </ul>
-                </div>
-            </div>
+                </nav>
+            </header>
         </div>
-        <div class="container flex-row">
-            <div id="portrait" class=""></div>
+        <section class="container flex-row terminal">
+            <figure id="portrait"></figure>
             <div class="info-cont">
                 <div id="info">
                     <p>root@Tyler-OS</p>
@@ -50,13 +49,12 @@
                     <p>Interests: Volleyball, Plant-based Cooking</p>
                 </div>
             </div>
+        </section>
+        <div class="flex-col container terminal">
+                <h1 id="project-header" text="Projects"></h1>
+                <main id="projects">
+                </main>
         </div>
-        <div class="flex-col container">
-                <div><h1 id="project-header" text="Projects"></h1></div>
-                <div id="projects" >
-                </div>
-        </div>
-    </div>
 </body>
 </html>
 <script src="./js/showText.js"></script>
