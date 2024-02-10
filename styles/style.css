@@ -27,8 +27,10 @@ button:hover {
     border: 1px solid white !important;
 }
 
-.terminal-logo {
-    padding: 0 0 0.7em 0 !important;
+@media (max-width: 546px) {
+    .terminal-logo {
+        padding: 0 0 0.7em 0 !important;
+    }
 }
 
 body {
