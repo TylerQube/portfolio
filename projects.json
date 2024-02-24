@@ -57,6 +57,10 @@
             {
                 "label": "Source",
                 "href": "https://www.github.com/TylerQube/isma-wordle"
+            },
+            {
+                "label": "Live",
+                "href": "https://ismordle.tylertypes.com"
             }
         ],
         "color": "#12C0DC", 
