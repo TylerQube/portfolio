@@ -20,7 +20,7 @@ const createProject = (proj) => {
 
 
     // ASCII
-    if(proj["ascii_file"] != "") {
+    if(proj["ascii_file"]) {
         const acont = document.createElement("div");
         acont.classList.add("ascii-cont");
         const ascii = document.createElement("pre");
